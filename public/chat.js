@@ -1,5 +1,5 @@
 // Make connection
-var socket = io.connect(process.env.PORT || 3000);
+var socket = io.connect(process.env.PORT);
 
 // Query DOM
 var message = document.querySelector('#message'),
