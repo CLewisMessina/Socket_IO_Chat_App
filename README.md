@@ -10,7 +10,9 @@ Allows users to chat in real time with one another over a web socket.
 **Code Tools:** MS Visual Studio Code
 
 **Working Example:** https://peaceful-dusk-46571.herokuapp.com/ 
-(Open multiple instances of chat app at the working example link and communicate)
+
+
+(Open multiple instances of the chat app at the working example link and communicate between any two browser pages)
 
 ### PROJECT HIGHLIGHTS
 My first web socket app.
