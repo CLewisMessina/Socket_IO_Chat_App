@@ -1,0 +1,76 @@
+:root{
+    font-size: 82.5%;
+    box-sizing: border-box;
+    --purple: #575ed8;
+    
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    color: var(--purple);
+}
+
+#chat-app{
+    max-width: 60rem;
+    margin: 3rem auto;
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+    border-radius: 2px;
+}
+
+#chat-window{
+    height: 40rem;
+    overflow: auto;
+    background: #f9f9f9;
+}
+
+#output p{
+    padding: 1.4rem 0px;
+    margin: 0 2rem;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 1.4rem 0px;
+    margin: 0 2rem;
+}
+
+#output strong{
+    color: var(--purple);
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 1rem 2rem;
+}
+
+input{
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+
+button{
+    background: var(--purple);
+    color: #fff;
+    font-size: 1.8rem;
+    border: 0;
+    padding: 1.2rem 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
